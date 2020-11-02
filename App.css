@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap');
+
+* {
+  margin: 0;
+}
+
+.app {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.app__header > h1 {
+  color: #fc3c3c;
+  font-size: 2rem;
+}
+
+.app__dropdown {
+  background-color: white;
+}
+
+body {
+  background-color: #f5f6fa;
+}
+
+.app__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.app__stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__right {
+  display: flex;
+  flex-direction: column;
+  height: 680px;
+}
+
+.app__right .MuiCardContent-root {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+@media (max-width: 990px) {
+  .app{
+    flex-direction: column;
+  }
+}
+
+.app__listTitle,
+.app__graphTitle {
+  font-family: 'Baloo Tammudu 2', cursive;
+  font-size: 1.5rem;
+  text-align: center;
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.app__left {
+  flex: 0.8;
+}
+
+.country__flag {
+  max-width: 30px;
+}
+
+.app__graph {
+  flex-grow: 1;
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+.app__graphTitle {
+  margin-top: 10px;
+}
